@@ -7,42 +7,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/8b45f66eef.js" crossorigin="anonymous"></script>
     <title>Chat | Kakao Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="status-bar"></div>
-    <div class="status-bar_column"></div>
-    <span class="status-bar__clock">13:54</span>
-    <div class="status-bar_column"></div>
-    <i class="far fa-clock"></i>
-    <i class="fas fa-volume-mute"></i>
-    <i class="fas fa-wifi"></i>
-
-    <span class="status-bar__battery-level">100%</span>
-    <i class="fas fa-battery-full"></i>
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar_column">
+            <i class="far fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
     <header class="header">
         <div class="header__header-column">
-            <div class="header__back-btn">
-                <a href="index.html">
-                    <i class="fas fa-arrow-left fa-2x"></i>
-                </a>
-                <h1 class="header__title">Best Friend</h1>
-            </div>
-            <div class="headers__header-column">
-                <span class="header__icon">
-                    <i class="fas fa-search"></i>
-                </span>
-                <div class="header__icon">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
+            <a href="index.html" class="header__back-btn">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <h1 class="header__title">Best Friend</h1>
+        </div>
+        <div class="headers__header-column">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-bars"></i>
+            </span>
         </div>
     </header>
     <main class="chat">
         <ul class="chat__messages">
             <span class="chat__timestamp">Friday, January 03, 2020</span>
             <li class="incoming-message message">
-                <img src="images/image.png" class="g-avatar message__avatar" />
+                <img src="images/image.png" class="m-avatar message__avatar" />
                 <div class="message__content">
                     <span class="message__author">Best Friend</span>
                     <div class="message__bubble">

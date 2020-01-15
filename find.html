@@ -7,19 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/8b45f66eef.js" crossorigin="anonymous"></script>
     <title>Find | Kakao Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="status-bar"></div>
-    <div class="status-bar_column"></div>
-    <span class="status-bar__clock">13:54</span>
-    <div class="status-bar_column"></div>
-    <i class="far fa-clock"></i>
-    <i class="fas fa-volume-mute"></i>
-    <i class="fas fa-wifi"></i>
-
-    <span class="status-bar__battery-level">100%</span>
-    <i class="fas fa-battery-full"></i>
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar_column">
+            <i class="far fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
     <header class="header">
         <div class="header__header-column">
             <h1 class="header__title">Find</h1>
@@ -74,14 +77,13 @@
             <h5 class="find__title">
                 Recommended Friends
             </h5>
-            <li class="find__friend find-friend">
+            <li class="find__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/image.png" alt="" class="g-avatar friend__avatar">
+                    <img src="images/image.png" class="friend__avatar" />
                     <div class="friend__content">
                         <span class="friend__name">
-                            Yoo
-                        </span>
-
+                      Nicolás Serrano
+                    </span>
                     </div>
                 </div>
                 <div class="friend__column">

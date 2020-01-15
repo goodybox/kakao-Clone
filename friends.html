@@ -7,19 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/8b45f66eef.js" crossorigin="anonymous"></script>
     <title>Friends | Kakao Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="status-bar"></div>
-    <div class="status-bar_column"></div>
-    <span class="status-bar__clock">13:54</span>
-    <div class="status-bar_column"></div>
-    <i class="far fa-clock"></i>
-    <i class="fas fa-volume-mute"></i>
-    <i class="fas fa-wifi"></i>
-
-    <span class="status-bar__battery-level">100%</span>
-    <i class="fas fa-battery-full"></i>
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar_column">
+            <i class="far fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
     <header class="header">
         <div class="header__header-column">
             <h1 class="header__title">Friends</h1>
@@ -35,16 +38,16 @@
     </header>
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
-                <div class="friend_column">
-                    <img src="images/image.png" alt="" class="g-avatar friend__avatar">
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="images/image.png" class="g-avatar friend__avatar" />
                     <div class="friend__content">
                         <span class="friend__name">
-                            Yoo
-                        </span>
+                      Yoo
+                    </span>
                         <span class="friend__status">
-                            test
-                        </span>
+                      techqa.shop
+                    </span>
                     </div>
                 </div>
             </div>
@@ -53,7 +56,7 @@
             <h5 class="friends__plus-title">Plus Friend</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/image.png" alt="" class="g-avatar friend__avatar">
+                    <img src="images/image.png" alt="" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             Plus Friend
@@ -66,7 +69,7 @@
             <h5 class="friends__title">Friends 14</h5>
             <li class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/image.png" alt="" class="g-avatar friend__avatar">
+                    <img src="images/image.png" alt="" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             Yoo
