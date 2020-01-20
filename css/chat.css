@@ -36,12 +36,16 @@
 
 .chat__icon-left {
     position: absolute;
-    left: 10px;
+    left: 20px;
 }
 
 .chat__icon-right {
     position: absolute;
-    right: 10px;
+    right: 20px;
+}
+
+.chat__write-icon {
+    padding: 5px;
 }
 
 @keyframes float {
